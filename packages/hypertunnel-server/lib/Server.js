@@ -19,7 +19,7 @@ class Server {
   constructor (opts = {}) {
     this.landingPage = opts.landingPage || 'https://github.com/berstend/hypertunnel#readme'
     this.serverPort = parseInt(opts.serverPort) || 3000
-    this.serverDomain = opts.serverDomain || 'hypertunnel.lvh.me'
+    this.serverDomain = opts.serverDomain || 'tunnel.collab.by'
     this.serverToken = opts.serverToken || 'free-server-please-be-nice'
 
     this.manager = new TunnelManager()

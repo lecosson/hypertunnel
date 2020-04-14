@@ -10,7 +10,7 @@ module.exports = async (argv) => {
   program
     .version(version, '-v, --version')
     .option('-p, --port [port]', 'web server port', 3000)
-    .option('-d, --domain [domain]', 'public web server domain', 'hypertunnel.lvh.me')
+    .option('-d, --domain [domain]', 'public web server domain', 'tunnel.collab.by')
     .option('-t, --token [token]', 'token required to be sent by clients', 'free-server-please-be-nice')
     .parse(argv)
 

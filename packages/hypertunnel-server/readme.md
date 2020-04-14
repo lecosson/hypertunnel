@@ -17,7 +17,7 @@ hypertunnel-server --help
 
     -v, --version          output the version number
     -p, --port [port]      web server port (default: 3000)
-    -d, --domain [domain]  public web server domain (default: hypertunnel.lvh.me)
+    -d, --domain [domain]  public web server domain (default: tunnel.collab.by)
     -t, --token [token]    token required to be sent by clients (default: free-server-please-be-nice)
     -h, --help             output usage information
 ```
